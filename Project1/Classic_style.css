@@ -1,0 +1,57 @@
+p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 100%;
+    color: #2D3E40;
+    display: inline;
+}
+
+.navbar-custom {
+    background-color: #93bfb7;
+}
+
+.caret{
+    color: #2D3E40;
+}
+
+.title{
+    font-weight: 700;
+}
+
+.icon-bar{
+    background-color: #2D3E40;
+}
+
+.text{
+    color:azure;
+    font-size: 16px;
+}
+
+.h2{
+    font-size: 20px;
+    color: azure;
+}
+
+.footer{
+    margin-top: 100px;
+    background-color: #93bfb7;
+    height: 150px;
+}
+
+@media screen and (max-width: 800px){
+    .footer{
+        height: 250px;
+    }
+}
+
+a:link {
+    color: azure;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited{
+    color: azure;
+    background-color: transparent;
+    text-decoration: underline;
+}

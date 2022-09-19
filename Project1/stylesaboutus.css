@@ -1,0 +1,159 @@
+p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 100%;
+    color: #2D3E40;
+    display: inline;
+}
+
+.footer{
+    margin-top: 100px;
+    background-color: #93bfb7;
+    height: 150px;
+}
+
+.elite{
+    font-size: 300%;
+}
+
+.container2 {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #93bfb7;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    
+  }
+  
+  .container2:hover .overlay {
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.bg-1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 300%;
+    color: #e4f2e7;
+}
+
+.bg-2 {
+    background-color: #97a6a0; /* Dark Blue */
+    color: #2D3E40;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 200%;
+}
+
+.bg-3 {
+    color: #93bfb7;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 150%;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    background-color: #93bfb7;
+    color: #2D3E40;
+    border-radius: 0;
+    transition: .2s;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 00;
+    font-size: 100%;
+  }
+  
+  /* On hover, the color of .btn will transition to white with black text */
+  .btn:hover, .btn:focus {
+    background-color: #fff;
+    color: #000;
+  }
+.sep{
+    width: 200px;
+    height: 5px;
+    background-color: #93bfb7;
+}
+
+.icon-bar{
+    background-color: #2D3E40;
+}
+
+.navbar-custom {
+    background-color: #93bfb7;
+}
+
+.caret{
+    color: #2D3E40;
+}
+
+.title{
+    font-weight: 700;
+}
+
+.title2{
+    font-weight: 400;
+    font-size: 5vw;
+    color: #e4f2e7;
+}
+
+.chicago{
+    margin-top: 0%;
+}
+
+.cleveland{
+    margin-top: 0%;
+}
+
+@media screen and (max-width: 800px){
+    .title2{
+        font-size: 300%;
+    }
+
+    .overlay{
+        left: 15px;
+    }
+
+    .footer{
+        height: 250px;
+    }
+
+    .elite{
+        font-size: 150%;
+    }
+}
+
+@media screen  and (min-width: 800px){
+    .chicago{
+        margin-top: -10%;
+    }
+
+    .cleveland{
+        margin-top: -38%;
+    }
+}

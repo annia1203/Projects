@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Art</title>
+
+    <link rel="stylesheet" type="text/css" href="Digital_style.css">
+    <link rel="icon" href="https://i.pinimg.com/474x/06/3a/ef/063aefe7150e8aebb1df71c1eb452fd6.jpg">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: #2d3e40">
+    
+    <!--NAVBAR-->
+    <nav class="navbar navbar-custom">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><p class="title">Kalopsia</p></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html"><p>Home</p></a></li>
+                <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><p>Art</p>
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="Classic.html">Classic</a></li>
+                    <li><a href="Modern.html">Modern</a></li>
+                    <li><a href="Contemporary.html">Contemporary</a></li>
+                    <li><a href="Digital.html">Digital</a></li>
+                </ul>
+                </li>
+                <li><a href="Galleries.html"><p>Galleries</p></a></li>
+                <li><a href="Artists.html"><p>Artists</p></a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="AboutUs.html"><p>About Us</p></a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+     <!--ENCABEZADO-->
+     <div class="container">
+        <div class="jumbotron">
+            <h2><img src="images/ComputerEmoji.png" width="4%" alt="Statue"><b>          Digital Art</b></h2>
+            <p >
+                <br>Creative discipline characterized by the use of digital technologies for its production, exhibition, or both.
+                <br>Emerged with the incorporation of computers in the last decades of the 20th century.
+             </p> 
+    </div>
+
+    <!--CONTENIDO-->
+    <div class="container">
+        <div class="jumbotron">
+            <h2><img src="images/RobotEmoji.png" width="3.5%" alt="Vase"><b>       Auction: AI Generated Artwork</b></h2>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <div class="row">
+            
+            <div class="col-sm-4">
+                <h3 style="color: azure;"><b>AI Midjourney</b></h3>
+                <a href="images/AI_ChingKaiYen3.jpg"><img src="images/AI_ChingKaiYen3.jpg" style="width:65%;" alt="Artwork by Ching-Kai Yen"></a>
+                <p class="text">
+                    <br>
+                    <br>Ching-Kai Yen
+                    <br>2022
+                <!--BOTON PARA AUCTION-->
+                    <br><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong" style="background-color:#93bfb7 ;">
+                        Starting Price: 4,500 EUR
+                    </button>
+                    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h3 class="modal-title" id="exampleModalLongTitle">Submit your offer!</h3>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <!--CUERPO DE FORMATO-->
+                            <div class="modal-body">
+                              
+                                <div class="container text-center">
+                                    <div class="row">
+                                        <!--IMAGEN-->
+                                        <div class="col-md-4">
+                                            <img src="images/AI_ChingKaiYen3.jpg" width="75%">
+                                        </div>
+                                        <!--DATOS-->
+                                        <div class="container text-left">
+                                            <div class="col-sm-2">
+                                                <br>
+                                                <br>
+                                                <label for="email"> Email: </label>
+                                                <input type="text" class="form-control" id="email">
+                                                <br>
+                                                <label for="email"> Offer: </label>
+                                                <input type="number" class="form-control" id="offer">
+                                                <br style="font-size:8px;"><i>Starting Price: 4,500 EUR</i>
+                                            </div>
+                                        </div>
+                                        
+
+                                    </div>
+                                    <!--NOMBRE DE IMAGEN-->
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            AI Midjourney by Ching-Kai Yen
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" style="background-color:#93bfb7 ;">Submit</button>
+                            </div>
+
+                          </div>
+                        </div>
+                    </div>
+
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h3 style="color: azure;"><b>AI Midjourney</b></h3>
+                <a href="images/AI_ChingKaiYen.jpg"><img src="images/AI_ChingKaiYen.jpg" style="width:65%;" alt="Artwork by Ching-Kai Yen"></a>
+                <p class="text">
+                    <br>
+                    <br>Ching-Kai Yen
+                    <br>2022
+                    <br><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLon" style="background-color:#93bfb7 ;">
+                        Starting Price: 4,500 EUR
+                    </button>
+                    <div class="modal fade" id="exampleModalLon" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h3 class="modal-title" id="exampleModalLongTitle">Submit your offer!</h3>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <!--CUERPO DE FORMATO-->
+                            <div class="modal-body">
+                              
+                                <div class="container text-center">
+                                    <div class="row">
+                                        <!--IMAGEN-->
+                                        <div class="col-md-4">
+                                            <img src="images/AI_ChingKaiYen.jpg" width="75%">
+                                        </div>
+                                        <!--DATOS-->
+                                        <div class="container text-left">
+                                            <div class="col-sm-2">
+                                                <br>
+                                                <br>
+                                                <label for="email"> Email: </label>
+                                                <input type="text" class="form-control" id="email">
+                                                <br>
+                                                <label for="email"> Offer: </label>
+                                                <input type="number" class="form-control" id="offer">
+                                                <br style="font-size:8px;"><i>Starting Price: 4,500 EUR</i>
+                                            </div>
+                                        </div>
+                                        
+
+                                    </div>
+                                    <!--NOMBRE DE IMAGEN-->
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            AI Midjourney by Ching-Kai Yen
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" style="background-color:#93bfb7 ;">Submit</button>
+                            </div>
+
+                          </div>
+                        </div>
+                    </div>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h3 style="color: azure;"><b>AI Midjourney</b></h3>
+                <a href="images/AI_ChingKaiYen2.jpg"><img src="images/AI_ChingKaiYen2.jpg" style="width:65%;" alt="Apodoloro Vase"></a>
+                <p class="text">
+                    <br>
+                    <br>Ching-Kai Yen
+                    <br>2022
+                    <br><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ChingKaiYen2" style="background-color:#93bfb7 ;">
+                        Starting Price: 4,500 EUR
+                    </button>
+                    <div class="modal fade" id="ChingKaiYen2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h3 class="modal-title" id="exampleModalLongTitle">Submit your offer!</h3>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <!--CUERPO DE FORMATO-->
+                            <div class="modal-body">
+                              
+                                <div class="container text-center">
+                                    <div class="row">
+                                        <!--IMAGEN-->
+                                        <div class="col-md-4">
+                                            <img src="images/AI_ChingKaiYen2.jpg" width="75%">
+                                        </div>
+                                        <!--DATOS-->
+                                        <div class="container text-left">
+                                            <div class="col-sm-2">
+                                                <br>
+                                                <br>
+                                                <label for="email"> Email: </label>
+                                                <input type="text" class="form-control" id="email">
+                                                <br>
+                                                <label for="email"> Offer: </label>
+                                                <input type="number" class="form-control" id="offer">
+                                                <br style="font-size:8px;"><i>Starting Price: 4,500 EUR</i>
+                                            </div>
+                                        </div>
+                                        
+
+                                    </div>
+                                    <!--NOMBRE DE IMAGEN-->
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            AI Midjourney by Ching-Kai Yen
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" style="background-color:#93bfb7 ;">Submit</button>
+                            </div>
+
+                          </div>
+                        </div>
+                    </div>
+                    
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg">
+                <p>
+                    <br>
+                    <br>
+                    <br>
+                </p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-4">
+                <h3 style="color: azure;"><b>Portrait of Edmond de Belamy</b></h3>
+                <a href="images/AI_PortraitOfEdmondBelamy.jpg"><img src="images/AI_PortraitOfEdmondBelamy.jpg" style="width:65%;" alt="Portrait of Edmond de Belamy"></a>
+                <p class="text">
+                    <br>
+                    <br>Christie
+                    <br>2018
+                    <br><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Edmond" style="background-color:#93bfb7 ;">
+                        Starting Price: 10,000 EUR
+                    </button>
+                    <div class="modal fade" id="Edmond" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h3 class="modal-title" id="exampleModalLongTitle">Submit your offer!</h3>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <!--CUERPO DE FORMATO-->
+                            <div class="modal-body">
+                              
+                                <div class="container text-center">
+                                    <div class="row">
+                                        <!--IMAGEN-->
+                                        <div class="col-md-4">
+                                            <img src="images/AI_PortraitOfEdmondBelamy.jpg" width="75%">
+                                        </div>
+                                        <!--DATOS-->
+                                        <div class="container text-left">
+                                            <div class="col-sm-2">
+                                                <br>
+                                                <br>
+                                                <label for="email"> Email: </label>
+                                                <input type="text" class="form-control" id="email">
+                                                <br>
+                                                <label for="email"> Offer: </label>
+                                                <input type="number" class="form-control" id="offer">
+                                                <br style="font-size:8px;"><i>Starting Price: 10,000 EUR</i>
+                                            </div>
+                                        </div>
+                                        
+
+                                    </div>
+                                    <!--NOMBRE DE IMAGEN-->
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            Portrait of Edmond de Belamy bu Christie
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" style="background-color:#93bfb7 ;">Submit</button>
+                            </div>
+
+                          </div>
+                        </div>
+                    </div>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h3 style="color: azure;"><b>Napoleon Bonaparte A2</b></h3>
+                <a href="images/AI_NapoleonBonaparteA2.jpeg"><img src="images/AI_NapoleonBonaparteA2.jpeg" style="width:55%;" alt="Napoleon Bonaparte A2"></a>
+                <p class="text">
+                    <br>
+                    <br>Reddit User: vic8760
+                    <br>2016
+                    <br><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Napoleon" style="background-color:#93bfb7 ;">
+                        Starting Price: 5,500 EUR
+                    </button>
+                    <div class="modal fade" id="Napoleon" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h3 class="modal-title" id="exampleModalLongTitle">Submit your offer!</h3>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <!--CUERPO DE FORMATO-->
+                            <div class="modal-body">
+                              
+                                <div class="container text-center">
+                                    <div class="row">
+                                        <!--IMAGEN-->
+                                        <div class="col-md-4">
+                                            <img src="images/AI_NapoleonBonaparteA2.jpeg" width="75%">
+                                        </div>
+                                        <!--DATOS-->
+                                        <div class="container text-left">
+                                            <div class="col-sm-2">
+                                                <br>
+                                                <br>
+                                                <label for="email"> Email: </label>
+                                                <input type="text" class="form-control" id="email">
+                                                <br>
+                                                <label for="email"> Offer: </label>
+                                                <input type="number" class="form-control" id="offer">
+                                                <br style="font-size:8px;"><i>Starting Price: 5,500 EUR</i>
+                                            </div>
+                                        </div>
+                                        
+
+                                    </div>
+                                    <!--NOMBRE DE IMAGEN-->
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            Napoleon Bonaparte A2 by vic8760
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" style="background-color:#93bfb7 ;">Submit</button>
+                            </div>
+
+                          </div>
+                        </div>
+                    </div>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h3 style="color: azure;"><b>Botto</b></h3>
+                <a href="images/AI_Botto.jpg"><img src="images/AI_Botto.jpg" style="width:65%;" alt="Botto"></a>
+                <p class="text">
+                    <br>
+                    <br>Mario Klingemann
+                    <br>2019
+                    <br><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Botto" style="background-color:#93bfb7 ;">
+                        Starting Price: 8,980 EUR
+                    </button>
+                    <div class="modal fade" id="Botto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h3 class="modal-title" id="exampleModalLongTitle">Submit your offer!</h3>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <!--CUERPO DE FORMATO-->
+                            <div class="modal-body">
+                              
+                                <div class="container text-center">
+                                    <div class="row">
+                                        <!--IMAGEN-->
+                                        <div class="col-md-4">
+                                            <img src="images/AI_Botto.jpg" width="75%">
+                                        </div>
+                                        <!--DATOS-->
+                                        <div class="container text-left">
+                                            <div class="col-sm-2">
+                                                <br>
+                                                <br>
+                                                <label for="email"> Email: </label>
+                                                <input type="text" class="form-control" id="email">
+                                                <br>
+                                                <label for="email"> Offer: </label>
+                                                <input type="number" class="form-control" id="offer">
+                                                <br style="font-size:8px;"><i>Starting Price: 8,980 EUR</i>
+                                            </div>
+                                        </div>
+                                        
+
+                                    </div>
+                                    <!--NOMBRE DE IMAGEN-->
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            Botto by Mario Klingemann
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" style="background-color:#93bfb7 ;">Submit</button>
+                            </div>
+
+                          </div>
+                        </div>
+                    </div>
+                </p>
+            </div>
+        </div>
+        <!--VACIA PARA SEPARACIÓN-->
+        <div class="row">
+            <div class="col-lg">
+                <p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h2><img src="images/ComputerEmoji.png" width="3.5%" alt="ComputerEmoji"><b>       Auction: Digital Illustration</b></h2>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <div class="row">
+            
+            <div class="col-sm-4">
+                <h3 style="color: azure;"><b>Happy Colorful Clouds</b></h3>
+                <a href="images/HappyColorfulClouds.jpg"><img src="images/HappyColorfulClouds.jpg" style="width:85%;" alt="Happy Colorful Clouds"></a>
+                <p class="text">
+                    <br>
+                    <br>DeviantArt: Ururuty
+                    <br>2022
+                    <br><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#clouds" style="background-color:#93bfb7 ;">
+                        Starting Price: 2,500 EUR
+                    </button>
+                    <div class="modal fade" id="clouds" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h3 class="modal-title" id="exampleModalLongTitle">Submit your offer!</h3>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <!--CUERPO DE FORMATO-->
+                            <div class="modal-body">
+                              
+                                <div class="container text-center">
+                                    <div class="row">
+                                        <!--IMAGEN-->
+                                        <div class="col-md-4">
+                                            <br>
+                                            <br>
+                                            <br>
+                                            <img src="images/HappyColorfulClouds.jpg" width="75%">
+                                        </div>
+                                        <!--DATOS-->
+                                        <div class="container text-left">
+                                            <div class="col-sm-2">
+                                                <br>
+                                                <br>
+                                                <label for="email"> Email: </label>
+                                                <input type="text" class="form-control" id="email">
+                                                <br>
+                                                <label for="email"> Offer: </label>
+                                                <input type="number" class="form-control" id="offer">
+                                                <br style="font-size:8px;"><i>Starting Price: 2,500 EUR</i>
+                                            </div>
+                                        </div>
+                                        
+
+                                    </div>
+                                    <!--NOMBRE DE IMAGEN-->
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            Happy Colorful Clouds by Ururuty
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" style="background-color:#93bfb7 ;">Submit</button>
+                            </div>
+
+                          </div>
+                        </div>
+                    </div>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h3 style="color: azure;"><b>Aradea | CM</b></h3>
+                <a href="images/Aradea.jpg"><img src="images/Aradea.jpg" style="width:90%;" alt="Aradea"></a>
+                <p class="text">
+                    <br>
+                    <br>DeviantArt: Hoshi-Pan
+                    <br>2022
+                    <br><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#aradea" style="background-color:#93bfb7 ;">
+                        Starting Price: 3,000 EUR
+                    </button>
+                    <div class="modal fade" id="aradea" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h3 class="modal-title" id="exampleModalLongTitle">Submit your offer!</h3>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <!--CUERPO DE FORMATO-->
+                            <div class="modal-body">
+                              
+                                <div class="container text-center">
+                                    <div class="row">
+                                        <!--IMAGEN-->
+                                        <div class="col-md-4">
+                                            <br>
+                                            <br>
+                                            <br>
+                                            <img src="images/Aradea.jpg" width="75%">
+                                        </div>
+                                        <!--DATOS-->
+                                        <div class="container text-left">
+                                            <div class="col-sm-2">
+                                                <br>
+                                                <br>
+                                                <label for="email"> Email: </label>
+                                                <input type="text" class="form-control" id="email">
+                                                <br>
+                                                <label for="email"> Offer: </label>
+                                                <input type="number" class="form-control" id="offer">
+                                                <br style="font-size:8px;"><i>Starting Price: 3,000 EUR</i>
+                                            </div>
+                                        </div>
+                                        
+
+                                    </div>
+                                    <!--NOMBRE DE IMAGEN-->
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            Aradea by Hoshi-Pan
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" style="background-color:#93bfb7 ;">Submit</button>
+                            </div>
+
+                          </div>
+                        </div>
+                    </div>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h3 style="color: azure;"><b>Ch3rryBl0ss0m</b></h3>
+                <a href="images/CherryBlossom.jpg"><img src="images/CherryBlossom.jpg" style="width:95%;" alt="Ch3rryBl0ss0m"></a>
+                <p class="text">
+                    <br>
+                    <br>DeviantArt: cha5yn
+                    <br>2022
+                    <br><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cherry" style="background-color:#93bfb7 ;">
+                        Starting Price: 3,500 EUR
+                    </button>
+                    <div class="modal fade" id="cherry" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h3 class="modal-title" id="exampleModalLongTitle">Submit your offer!</h3>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <!--CUERPO DE FORMATO-->
+                            <div class="modal-body">
+                              
+                                <div class="container text-center">
+                                    <div class="row">
+                                        <!--IMAGEN-->
+                                        <div class="col-md-4">
+                                            <br>
+                                            <br>
+                                            <br>
+                                            <img src="images/CherryBlossom.jpg" width="75%">
+                                        </div>
+                                        <!--DATOS-->
+                                        <div class="container text-left">
+                                            <div class="col-sm-2">
+                                                <br>
+                                                <br>
+                                                <label for="email"> Email: </label>
+                                                <input type="text" class="form-control" id="email">
+                                                <br>
+                                                <label for="email"> Offer: </label>
+                                                <input type="number" class="form-control" id="offer">
+                                                <br style="font-size:8px;"><i>Starting Price: 3,500 EUR</i>
+                                            </div>
+                                        </div>
+                                        
+
+                                    </div>
+                                    <!--NOMBRE DE IMAGEN-->
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            Ch3rryBl0ss0m by cha5yn
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" style="background-color:#93bfb7 ;">Submit</button>
+                            </div>
+
+                          </div>
+                        </div>
+                    </div>
+                </p>
+            </div>
+        </div>
+        <!--VACIA PARA SEPARACIÓN-->
+        <div class="row">
+            <div class="col-lg">
+                <p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h2><img src="images/ComputerEmoji.png" width="3.5%" alt="ComputerEmoji"><b>       Auction: 3D Sculpting</b></h2>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <div class="row">
+            
+            <div class="col-sm-4">
+                <h3 style="color: azure;"><b>Sculptures for 3D Printing</b></h3>
+                <a href="images/Sculptures01.jpg"><img src="images/Sculptures01.jpg" style="width:85%;" alt="Sculptures for 3D Printing"></a>
+                <p class="text">
+                    <br>
+                    <br>Julia Pishtar
+                    <br>2016
+                    <br><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#s1" style="background-color:#93bfb7 ;">
+                        Starting Price: 3,000 EUR
+                    </button>
+                    <div class="modal fade" id="s1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h3 class="modal-title" id="exampleModalLongTitle">Submit your offer!</h3>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <!--CUERPO DE FORMATO-->
+                            <div class="modal-body">
+                              
+                                <div class="container text-center">
+                                    <div class="row">
+                                        <!--IMAGEN-->
+                                        <div class="col-md-4">
+                                            <br>
+                                            <br>
+                                            <br>
+                                            <img src="images/Sculptures01.jpg" width="75%">
+                                        </div>
+                                        <!--DATOS-->
+                                        <div class="container text-left">
+                                            <div class="col-sm-2">
+                                                <br>
+                                                <br>
+                                                <label for="email"> Email: </label>
+                                                <input type="text" class="form-control" id="email">
+                                                <br>
+                                                <label for="email"> Offer: </label>
+                                                <input type="number" class="form-control" id="offer">
+                                                <br style="font-size:8px;"><i>Starting Price: 3,000 EUR</i>
+                                            </div>
+                                        </div>
+                                        
+
+                                    </div>
+                                    <!--NOMBRE DE IMAGEN-->
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            Sculptures for 3D Printing by Julia Pishtar
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" style="background-color:#93bfb7 ;">Submit</button>
+                            </div>
+
+                          </div>
+                        </div>
+                    </div>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h3 style="color: azure;"><b>Sculptures for 3D Printing</b></h3>
+                <a href="images/Sculptures02.jpg"><img src="images/Sculptures02.jpg" style="width:85%;" alt="Sculptures for 3D Printing"></a>
+                <p class="text">
+                    <br>
+                    <br>Julia Pishtar
+                    <br>2016
+                    <br><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#s2" style="background-color:#93bfb7 ;">
+                        Starting Price: 3,000 EUR
+                    </button>                    
+                    <div class="modal fade" id="s2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h3 class="modal-title" id="exampleModalLongTitle">Submit your offer!</h3>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <!--CUERPO DE FORMATO-->
+                            <div class="modal-body">
+                              
+                                <div class="container text-center">
+                                    <div class="row">
+                                        <!--IMAGEN-->
+                                        <div class="col-md-4">
+                                            <br>
+                                            <br>
+                                            <br>
+                                            <img src="images/Sculptures02.jpg" width="75%">
+                                        </div>
+                                        <!--DATOS-->
+                                        <div class="container text-left">
+                                            <div class="col-sm-2">
+                                                <br>
+                                                <br>
+                                                <label for="email"> Email: </label>
+                                                <input type="text" class="form-control" id="email">
+                                                <br>
+                                                <label for="email"> Offer: </label>
+                                                <input type="number" class="form-control" id="offer">
+                                                <br style="font-size:8px;"><i>Starting Price: 3,000 EUR</i>
+                                            </div>
+                                        </div>
+                                        
+
+                                    </div>
+                                    <!--NOMBRE DE IMAGEN-->
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            Sculptures for 3D Printing by Julia Pishtar
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" style="background-color:#93bfb7 ;">Submit</button>
+                            </div>
+
+                          </div>
+                        </div>
+                    </div>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h3 style="color: azure;"><b>Sculptures for 3D Printing</b></h3>
+                <a href="images/Sculptures03.jpg"><img src="images/Sculptures03.jpg" style="width:90%;" alt="Sculptures for 3D Printing"></a>
+                <p class="text">
+                    <br>
+                    <br>Julia Pishtar
+                    <br>2016
+                    <br><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#s3" style="background-color:#93bfb7 ;">
+                        Starting Price: 3,000 EUR
+                    </button>
+                    <div class="modal fade" id="s3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h3 class="modal-title" id="exampleModalLongTitle">Submit your offer!</h3>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <!--CUERPO DE FORMATO-->
+                            <div class="modal-body">
+                              
+                                <div class="container text-center">
+                                    <div class="row">
+                                        <!--IMAGEN-->
+                                        <div class="col-md-4">
+                                            <br>
+                                            <br>
+                                            <br>
+                                            <img src="images/Sculptures03.jpg" width="75%">
+                                        </div>
+                                        <!--DATOS-->
+                                        <div class="container text-left">
+                                            <div class="col-sm-2">
+                                                <br>
+                                                <br>
+                                                <label for="email"> Email: </label>
+                                                <input type="text" class="form-control" id="email">
+                                                <br>
+                                                <label for="email"> Offer: </label>
+                                                <input type="number" class="form-control" id="offer">
+                                                <br style="font-size:8px;"><i>Starting Price: 3,000 EUR</i>
+                                            </div>
+                                        </div>
+                                        
+
+                                    </div>
+                                    <!--NOMBRE DE IMAGEN-->
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            Sculptures for 3D Printing by Julia Pishtar
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" style="background-color:#93bfb7 ;">Submit</button>
+                            </div>
+
+                          </div>
+                        </div>
+                    </div>
+                </p>
+            </div>
+        </div>
+    </div>
+        
+        
+
+
+
+
+        <!--FOOTER-->
+        <footer class="footer">   
+            <div class="container text-center">
+                <!--VACIA PARA SEPARACIÓN-->
+                <div class="row">
+                    <div class="col-lg">
+                        <p>
+                            <br>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+                <!--VACIA PARA SEPARACIÓN-->
+                <div class="row">
+                    <div class="col-lg">
+                        <p>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="index.html"><p style="font-size:25px ;"><b>Kalopsia</b></p></a>
+                    </div>
+                    <div class="col-sm-1">
+                        <a href="index.html"><p style="font-size:15px ;">Home</p></a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="AboutUs.html"><p style="font-size:15px ;">About Us</p></a>
+                    </div>
+                    <div class="col-sm-1">
+                        <a href="https://es-la.facebook.com/"><img src="images/icon-facebook.svg" alt="facebook logo"></a>
+                    </div>
+                    <div class="col-sm-1">
+                        <a href="https://twitter.com/?lang=es"><img src="images/icon-twitter.svg" alt="twitter logo"></a>
+                    </div>
+                    <div class="col-sm-1">
+                        <a href="https://www.instagram.com/"><img src="images/icon-instagram.svg" alt="instagram logo"></a>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </footer>
+
+</body>
+</html>
