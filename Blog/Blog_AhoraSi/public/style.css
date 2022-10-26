@@ -1,0 +1,114 @@
+body{
+    background-color: #b3b4b6;
+}
+
+h1{
+    font-family: 'Saira', sans-serif;
+    font-size: 5px;
+    color:#c04c4c;
+}
+
+h3{
+    font-family: 'Saira', sans-serif;
+    color:#c04c4c;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #3a3a3c;
+  }
+
+  
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
+
+p{
+    font-family: 'Saira', sans-serif;
+    text-align: center;
+}
+
+h5{
+    color:white;
+}
+
+.header{
+    font-size: 400%;
+    font-weight: 900;
+    color: black;
+}
+
+a:link, a:visited {
+    font-family: 'Saira', sans-serif;
+    background-color: none;
+    color: black;
+    font-weight: 400;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+a:hover, a:active {
+font-family: 'Saira', sans-serif;
+font-weight: 600;
+color: #c04c4c;
+}
+
+.title{
+    font-family: 'Saira', sans-serif;
+    font-weight: 700;
+    
+    color: #464646;
+    text-align: center;
+    font-size: 200%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.btn{
+    background-color: #c04c4c;
+    color: white;
+    margin-top: 2%;
+    
+}
+
+.borderr{
+    border: none;
+    border-radius: 15px;
+    background-size: 300px auto;
+    background-repeat: no-repeat;
+    margin-bottom: 2%;
+}
+
+.borderg{
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+}
+
+.card{
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.card-title{
+    font-family: "Saira", sans-serif;
+    font-weight: 700;
+    font-size: 200%;
+}
+
+footer{
+    background-color: #3a3a3c;
+}
